@@ -8,6 +8,6 @@ router.get("/users/search/:name", UserController.searchByName);
 router.get("/users/:id", UserController.getById);
 router.post("/users/create", UserController.create);
 router.put("/users/edit/:id", UserController.updateById);
-router.delete("/users/:id", UserController.delete);
+router.delete("/users/:id", UserController.deleteById);
 
 export default router;
